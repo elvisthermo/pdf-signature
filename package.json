@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "base64-arraybuffer": "^0.2.0",
     "fs": "0.0.1-security",
     "git": "^0.1.5",
     "materialize-css": "^1.0.0",
