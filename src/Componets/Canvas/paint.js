@@ -2,6 +2,9 @@ export default function paint(){
     const canvas = document.querySelector('#paint');
     const ctx = canvas.getContext('2d');
 
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+
     const sketch = document.querySelector('#sketch');
     const sketch_style = getComputedStyle(sketch);
 

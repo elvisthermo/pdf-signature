@@ -1,6 +1,9 @@
 .modal{
     top:40%;
     left:40%;
+    background-color: #d9d9d9;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .modal-header{

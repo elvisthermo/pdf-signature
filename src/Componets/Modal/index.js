@@ -3,14 +3,10 @@ import React,{useState,useEffect} from 'react';
 import Canvas from '../Canvas/'
 import { PDFDocument, StandardFonts, rgb } from 'pdf-lib'
 
-
 function Modal(props) {
     const [visible,setVisible] = useState('none')
-    const [pd,setPd] = useState(0);
-    const [pdf,setPdf] = useState(0);
-    const [pdfView,setPdfView] = useState();
-    const [linkView,setLinkView] = useState();
     const [img,setImg] = useState();
+    const [clear,setClear] = useState(0);
 
     function isVisible() {
         if(visible==='none')
@@ -19,13 +15,16 @@ function Modal(props) {
             setVisible('none')
     }
 
+    function clearImg(){
+        return setClear(true);
+    }
+
     async function saveImage(){
         let canvas = document.getElementById("paint");
         let image = canvas.toDataURL("image/png", 0.5)
         let bytecode = image.split('base64,')[1];
         await setImg(bytecode);
         console.log(bytecode);
-
         isVisible()
         console.log("foi");
 
@@ -41,7 +40,6 @@ function Modal(props) {
     }
 
     async function pdfs() {
-
         const pdfDoc = await PDFDocument.create()
         const timesRomanFont = await pdfDoc.embedFont(StandardFonts.TimesRoman)
         const page = pdfDoc.addPage()
@@ -58,7 +56,6 @@ function Modal(props) {
 
         const pdfBytes = await pdfDoc.save();
         console.log(pdfBytes)
-        //-------------------
         // ----PDF SAVE--------------------------
 
         const ToBase64 = function (u8) {
@@ -79,7 +76,6 @@ function Modal(props) {
             b64 = ToBase64(pdfBytes);
         }
 
-        //Decode Base64 to binary and show some information about the PDF file (note that I skipped all checks)
         var bin = atob(b64);
 
         let removeLink = document.getElementById('link-pdf');
@@ -88,14 +84,6 @@ function Modal(props) {
             console.log("aqui",removeLink)
         }
 
-        var link = document.createElement('a');
-        link.id = "link-pdf";
-        link.innerHTML = 'Download PDF file';
-        link.download = 'file.pdf';
-        link.href = 'data:application/octet-stream;base64,' + b64;
-        document.body.appendChild(link);
-
-        // Embed the PDF into the HTML page and show it to the user
         let removePdf = document.getElementById('view-pdf');
         if(removePdf){
             removePdf.parentNode.removeChild(removePdf);
@@ -137,18 +125,18 @@ function Modal(props) {
     return(
         <div>
             <label>
-                <input type="button" value="criar assinatura" onClick={isVisible}/>
+                <input class="pure-button pure-button-primary" type="button" value="criar assinatura" onClick={isVisible}/>
                      </label>
                      <div className="modal"
                           style={{display:visible,position:"absolute"}}>
                          <div className="modal-container">
                              <div className="modal-header">
-                                 <button className="close" onClick={isVisible}>fechar</button>
+                                 <button  class="pure-button pure-button-warning close" onClick={isVisible}>fechar</button>
                              </div>
-                             <Canvas/>
+                             <Canvas clear={clear}/>
                              <div className="modal-footer">
-                                 <button className="clear">limpar</button>
-                                 <button className="submit" onClick={saveImage}>submeter assinatura</button>
+                                 <button  class="pure-button pure-button clear" onClick={clearImg}>limpar</button>
+                                 <button  class="pure-button pure-button-primary  submit" onClick={saveImage}>submeter assinatura</button>
                              </div>
                          </div>
                      </div>

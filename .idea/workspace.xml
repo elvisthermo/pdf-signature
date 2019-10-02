@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db7b0a1-f81b-4501-a682-537496eaaccc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/libs/pure-min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Canvas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Canvas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Canvas/paint.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Canvas/paint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Modal/file.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componets/Modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Modal/pdf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componets/Modal/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componets/Modal/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/file.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/p5.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+              <folding>
+                <element signature="e#841#1008#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,10 +42,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="116">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,10 +54,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="17">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
                 <element signature="n#!!block;n#canvas_draw#0;n#!!block;n#Canvas#0" />
               </folding>
             </state>
@@ -54,19 +64,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/paint.js">
+        <entry file="file://$PROJECT_DIR$/src/Componets/Modal/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Componets/Modal/styles.css">
+        <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/paint.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -74,22 +84,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Componets/Modal/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-7">
+              <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <element signature="n#!!block;n#isVisible#0;n#!!block;n#Modal#0" />
+                <element signature="n#!!block;n#saveImage#0;n#!!block;n#Modal#0" />
+                <element signature="e#940#964#0" />
+                <element signature="n#!!block;n#pdfs2#0;n#!!block;n#Modal#0" />
                 <element signature="n#!!block;n#readAllBytesAsUInt8Array#0;n#!!block;n#pdfs#0;n#!!block;n#Modal#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -112,6 +116,7 @@
       <find>setPd</find>
       <find>Pd</find>
       <find>Ex</find>
+      <find>s</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,31 +126,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Componets/canvas/index.js" />
-        <option value="$PROJECT_DIR$/src/Componets/Canvas/paint.js" />
         <option value="$PROJECT_DIR$/src/Componets/Modal/pdf.js" />
-        <option value="$PROJECT_DIR$/src/Componets/Modal/styles.css" />
-        <option value="$PROJECT_DIR$/src/Componets/Canvas/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Componets/Canvas/paint.js" />
+        <option value="$PROJECT_DIR$/src/Componets/Canvas/index.js" />
         <option value="$PROJECT_DIR$/src/Componets/Modal/index.js" />
+        <option value="$PROJECT_DIR$/src/Componets/Modal/styles.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/pdf-signature.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="620" />
-    <option name="y" value="11" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="598" />
     <option name="width" value="778" />
     <option name="height" value="744" />
   </component>
@@ -171,6 +164,13 @@
               <item name="pdf-signature" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Componets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdf-signature" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdf-signature" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Componets" type="462c0819:PsiDirectoryNode" />
+              <item name="Canvas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdf-signature" type="b2602c69:ProjectViewProjectNode" />
@@ -203,12 +203,13 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thermo\Documents\GitHub\pdf-signature\src\libs" />
+      <recent name="C:\Users\Thermo\Documents\GitHub\pdf-signature\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Thermo\Documents\GitHub\pdf-signature\src" />
       <recent name="C:\Users\Thermo\Documents\GitHub\pdf-signature\src\Componets\Modal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Thermo\Documents\GitHub\pdf-signature\src\libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,12 +250,12 @@
       <workItem from="1569813906930" duration="4690000" />
       <workItem from="1569851775360" duration="6323000" />
       <workItem from="1569979964970" duration="6955000" />
-      <workItem from="1570023806469" duration="723000" />
+      <workItem from="1570023806469" duration="6927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62198000" />
+    <option name="totallyTimeSpent" value="68402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +267,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25744048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,15 +316,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/libs/p5.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/p5/lib/p5.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-modal/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,9 +336,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/pdf-lib/cjs/index.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componets/Modal/pdf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/pdf2html/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/pdftohtmljs/lib/pdftohtml.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/pdftohtmljs/index.js" />
@@ -357,64 +347,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componets/Modal/styles.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/libs/p5.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/pure-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componets/Modal/pdf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/paint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Componets/Modal/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-7">
+          <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="n#!!block;n#isVisible#0;n#!!block;n#Modal#0" />
+            <element signature="n#!!block;n#saveImage#0;n#!!block;n#Modal#0" />
+            <element signature="e#940#964#0" />
+            <element signature="n#!!block;n#pdfs2#0;n#!!block;n#Modal#0" />
             <element signature="n#!!block;n#readAllBytesAsUInt8Array#0;n#!!block;n#pdfs#0;n#!!block;n#Modal#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componets/Modal/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
             <element signature="n#!!block;n#canvas_draw#0;n#!!block;n#Canvas#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componets/Canvas/paint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="116">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#841#1008#0" />
+          </folding>
         </state>
       </provider>
     </entry>

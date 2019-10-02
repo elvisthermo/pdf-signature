@@ -10,9 +10,6 @@
     "pdf-lib": "^1.1.1",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "react-modal": "^3.10.1",
-    "react-modal-hook": "^2.0.0",
-    "react-p5": "^1.0.6",
     "react-scripts": "3.1.2"
   },
   "scripts": {
