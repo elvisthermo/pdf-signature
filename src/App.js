@@ -29,7 +29,7 @@ function App() {
 
   <div className="App">
 
-  <label className=" button-wrapper">
+  <label className="button-wrapper">
 
       <span className="label">
         selecione um arquivo pdf:
